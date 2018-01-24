@@ -9,7 +9,7 @@ library(tidyverse)
 library(data.table)
 
 #Load the cars dataset array
-setwd("C:/Users/vishw/Desktop/Lectures/Data Science/ProfLary ML/Lecture-4/rscripts")
+setwd(getwd())
 cars <- fread('cars.csv')
 
 cars <- na.omit(cars)
