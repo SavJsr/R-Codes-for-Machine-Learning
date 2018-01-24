@@ -3,7 +3,8 @@ library(tidyverse)
 library(data.table)
 
 #Load the census dataset array
-setwd("C:/Users/vishw/Desktop/Lectures/Data Science/ProfLary ML/Lecture-3/rscripts")
+workspace <- getwd()
+setwd(workspace)
 census <- fread('population.csv')
 
 #Specify x values (year)
